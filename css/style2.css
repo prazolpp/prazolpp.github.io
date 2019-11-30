@@ -60,7 +60,6 @@ header
     transition: 0.5 ease-in-out;
     top: 0;
     background-color: #3d5c5c;
-    height: 112px;
     top = 0;
     z-index: 99; /*makes the header visible*/
     width: 100%;
