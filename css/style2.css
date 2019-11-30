@@ -87,8 +87,8 @@ ul li{
 
 #navpan ul li
 {
-    padding-right: 40px;
-    padding-left: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
 }
 
 #navpan
@@ -406,7 +406,8 @@ ul li{
 }
 .edufield
 {
-    margin: 40px;  
+    margin: 70px; 
+    
 }
 
 .education
@@ -415,13 +416,11 @@ ul li{
     padding: 80px;
     line-height: 2rem;
 }
-.sjsu
-{
-    border-bottom: 3px 
-}
-#coldesc
+
+.desc
 {
     padding-left: 20px;
+    z-index:1;
    
 }
 
