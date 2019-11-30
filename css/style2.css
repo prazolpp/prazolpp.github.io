@@ -1,0 +1,503 @@
+html,body{
+    
+    
+    margin: 0;
+    padding: 0;
+}
+
+
+.section1{
+    
+    background-color: #3d5c5c;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    overflow:hidden;
+}
+
+.section1 .heading{
+    
+    text-align:center;
+    font-size:10rem;
+    padding: 30px;
+    margin-left: 40px;
+    z-index: 1;
+    color:beige;
+    font-family:'Alfa Slab One', cursive;
+    font-weight: 100;
+    
+}
+
+.section1 .subheading{
+    
+    text-align:center;
+    font-size:4rem;
+    padding: 20px;
+    margin: 15px;
+    z-index: 1;
+    color:beige;
+    font-family: 'Alfa Slab One', cursive;
+    font-weight: 20;
+    
+}
+
+.video-container{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+}
+
+header
+{   
+    font-family: 'Alfa Slab One', cursive;
+    position: sticky;
+    transition: 0.5 ease-in-out;
+    top: 0;
+    background-color: #3d5c5c;
+    height: 112px;
+    top = 0;
+    z-index: 99; /*makes the header visible*/
+    width: 100%;
+}
+
+.secondary 
+{
+    background-color: beige;
+    box-shadow: 0px 0px 17px 0px;
+    transition: 0.5s ease;
+}
+.secondary #navpan ul li a
+{   
+    font-family: 'Alfa Slab One';
+    color: #3d5c5c; 
+}
+
+ul
+{
+    list-style: none;
+}
+
+ul li{
+    
+    display:inline-block;
+ 
+}
+
+#navpan
+{
+    display:flex;
+    justify-content:space-around;
+    position:relative;
+    padding: 50px 20px;
+
+}
+#navpan ul li a{
+    
+    color: beige;
+    padding: 30px;
+}
+#navpan ul li a:hover{
+    
+    text-decoration: none;
+    color:red;
+    transition: 0.5s ease;
+    -webkit- transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+}
+
+.aboutme
+{
+    position: relative;
+    padding: 100px 0px;
+    text-align: center;
+    
+}
+
+.aboutme h1
+{
+    color: darkgreen;
+    
+}
+
+.aboutme p{
+    
+    padding: 40px;
+}
+
+.sub-heading
+{
+    color: #524b2a;
+    font-size: 2rem;
+}
+
+.sub-heading
+{   
+    position: relative;
+    margin-bottom:75px;
+}
+
+.sub-heading:before
+{
+    content:"";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -3%;
+    width: 6%;
+    height: 1.9px;
+    background-color: #1cac78;
+    z-index: 1;
+    -webkit-transition: 0.3s ease;
+    -moz-transition: 0.3s ease;
+    -ms-transition: 0.3s ease;
+    -o-transition: 0.3s ease;
+    transition: 0.3s ease;
+    
+}
+
+.sub-heading:hover:before
+{
+    width: 24%;
+    margin-left: -12%;
+    
+}
+
+.sub-heading:after
+{
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left:-12%;
+    width: 24%;
+    height: 1.9px;
+    background-color: #e1e1e1;
+    
+}
+
+.skills
+{   
+    border-top: 4px green;
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,.5)),url(..//images/twin%20peaks.jpg);
+    background-position:center;
+    background-attachment:fixed;
+    padding: 100px 0;
+}
+#someskills{
+    
+    color: beige;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+#subhead2
+{   
+    color:beige;
+    padding-top: 20px;
+    font-size: 2rem;
+    padding-bottom: 40px;
+}
+
+.skills-list ul
+{
+    list-style: none;
+    display:flex;
+    justify-content: flex-start;
+    align-content: flex-start;
+}
+
+.skills-list li
+{
+    position:relative;
+    padding-left: 70px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+}
+
+.skills-icon
+{
+    position: absolute;
+    left:0;
+    right:25;
+}
+
+.skills-icon i
+{
+    height: 63px;
+    width:63px;
+    text-align:center;
+    font-size:30px;
+    background: white;
+    color: green;
+    border-radius: 50%;
+    border: 2px solid green;
+    line-height:63px;
+    
+}
+
+.skills-details h3
+{
+    color: beige;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.projects h2
+{
+    color: #3d5c5c;
+    padding-top: 80px;
+}
+.projects-block
+{
+   
+    position:relative;
+    background:#f7f7f7;
+    margin: 50px 0px 0px;
+    text-align: center;
+    padding: 70px 25px 40px;
+}
+
+.projects-block:hover, .projects-block.active
+{
+    background: #00cc99;
+}
+
+.projects-block:hover{
+    
+    -webkit-transition: 0.6s ease;
+    -moz-transition: 0.6s ease;
+    -ms-transition: 0.6s ease;
+    -o-transition: 0.6s ease;
+    transition: 0.6s ease;
+    
+}
+
+.projects-block .java-icon
+{
+    position: absolute;
+    top: -31px;
+    left: 50%;
+    margin-left:-31px;
+}
+
+.projects-block .fab
+{
+    width: 63px;
+    height: 63px;
+    font-size: 30px;
+    color: white;
+    line-height: 2;
+    background: darkgreen;
+    border-radius: 50%;
+    box-shadow: 0px 0px 0px 10px #40bf80;
+}
+
+.projects-block:hover .fab, .projects-block.active .fa
+{
+    background:white;
+    color: darkgreen;
+    box-shadow: 0px 0px 0px 10px darkgreen;
+}
+
+.projects-block h3
+{
+    font-size: 18px;
+    color: darkgreen;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    
+}
+
+.projects-block p
+{
+    font-size: 1.5rem;
+    color: darkslategray;
+}
+
+.projects-block:hover h3 
+{
+    color: beige;
+}
+
+.projects-block:hover p{
+    
+    color:#3d5c5c;
+}
+
+#subhead3
+{
+    padding: 20px;
+}
+
+.work
+{
+    padding: 100px;
+}
+
+.work h2{
+    color: beige;
+}
+#subhead4
+{
+    color:#aaff00;
+    padding: 30px;
+}
+.si
+{
+    color: lightgreen;
+}
+.subhead5 h4
+{   
+    color: beige;
+    padding-bottom: 30px;
+}
+
+.subhead5 p
+{
+    color:#aaff00;
+}
+
+#job
+{
+     padding: 50px;
+}
+
+#job:hover
+{   
+    transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+    -ms-transition: 0.5s ease;
+    background: #00cc99;
+}
+
+#job:hover .si
+{
+    color:#3d5c5c;
+}
+
+#job:hover .subhead5 p{
+    
+    color:#3d5c5c;
+   
+}
+
+#job:hover h4
+{
+    color: beige;
+}
+.work
+{
+    margin: 100px 0px;
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(..//images/backwork.jpg);
+    background-position:center;
+    background-attachment:fixed;
+    padding: 100px 0;
+}
+.edufield
+{
+    margin: 40px;  
+}
+
+.education
+{   
+    background-color: #f7f7f7;
+    padding: 80px;
+    line-height: 2rem;
+}
+
+#coldesc
+{
+    padding-left: 20px;
+   
+}
+
+#subhead6
+{
+    padding: 35px;
+}
+
+.name-active{}
+
+.name-active img
+{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    border: 2px solid darkgreen;
+    padding: 5px; 
+}
+.social-network
+{
+    text-align: center;
+    padding-bottom: 15px;
+}
+.social-network a
+{
+    margin: 0 6px;
+}
+.social-network i
+{
+    height: 40px;
+    width: 40px;
+    background: white;
+    text-align: center;
+    color: darkgreen;
+    border-radius: 50%;
+    border: 3px solid #00cc99;
+    padding-top: 10px;
+}
+
+.contactme
+{   
+    margin: 100px 0px;
+    background-color: #e6ffe6;
+     background-position:center;
+    background-attachment:fixed;
+    padding: 100px 0;
+    
+}
+
+.contactme h2
+{
+    color: darkgreen;
+}
+
+.name-active h2
+{
+    color: #77773c;
+}
+
+.name-active p
+{
+    color: #cc6600;
+}
+#subhead7 p
+{
+    padding: 30px;
+}
+
+.social-network i:hover
+{
+    height: 50px;
+    width: 50px;
+    background: white;
+    text-align: center;
+    color: dodgerblue;
+    border-radius: 50%;
+    border: 3px solid #00cc99;
+    padding-top: 15px;
+}
+.fab fa-github:hover
+{
+    color: black;
+}
+
+
