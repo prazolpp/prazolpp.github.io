@@ -432,6 +432,7 @@ ul li{
 
 .name-active img
 {
+    filter: brightness(1.3);
     width: 150px;
     height: 150px;
     border-radius: 100%;
