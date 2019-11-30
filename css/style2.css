@@ -57,10 +57,9 @@ header
 {   
     font-family: 'Alfa Slab One', cursive;
     position: sticky;
-    transition: 0.5 ease-in-out;
     top: 0;
+    transition: 0.5s ease-in-out;
     background-color: #3d5c5c;
-    top = 0;
     z-index: 99; /*makes the header visible*/
     width: 100%;
 }
