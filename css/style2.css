@@ -1,3 +1,5 @@
+/* Copyright 2019 Prajwal Pyakurel */
+
 html,body{
     
     margin: 0;
@@ -88,9 +90,8 @@ ul li{
 #navpan ul li
 {
     padding-right: 10px;
-=======
-    padding-left: 10px;
->>>>>>> 039f8f8513a7e3abebf54aa1d278f72e7fa99df7
+    padding-left: 20px;
+
 }
 
 #navpan

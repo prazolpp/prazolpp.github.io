@@ -1,4 +1,4 @@
-
+// Copyright 2019 Prajwal Pyakurel
 $(document).ready(function(){
     
     "use strict";
