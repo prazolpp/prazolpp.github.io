@@ -63,6 +63,7 @@ header
     background-color: #3d5c5c;
     z-index: 99; /*makes the header visible*/
     width: 100%;
+    box-sizing: border-box;
 }
 
 .secondary 
@@ -98,7 +99,6 @@ ul li{
 {
     display:flex;
     justify-content:space-around;
-    position:relative;
     padding: 50px 20px;
 
 }
@@ -112,7 +112,7 @@ ul li{
     text-decoration: none;
     color:red;
     transition: 0.5s ease;
-    -webkit- transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
     -o-transition: 0.5s ease;
     -moz-transition: 0.5s ease;
     -ms-transition: 0.5s ease;
@@ -121,7 +121,7 @@ ul li{
 .aboutme
 {
     position: relative;
-    padding: 100px 0px;
+    padding: 150px 0px 100px 0px;
     text-align: center;
     
 }
@@ -145,46 +145,6 @@ ul li{
     margin-bottom:75px;
 }
 
-
-.sub-heading:before
-{
-    content:"";
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    margin-left: -3%;
-    width: 6%;
-    height: 1.9px;
-    background-color: #1cac78;
-    z-index: 1;
-    -webkit-transition: 0.3s ease;
-    -moz-transition: 0.3s ease;
-    -ms-transition: 0.3s ease;
-    -o-transition: 0.3s ease;
-    transition: 0.3s ease;
-    
-}
-
-.sub-heading:hover:before
-{
-    width: 24%;
-    margin-left: -12%;
-    
-}
-
-.sub-heading:after
-{
-    content: "";
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    margin-left:-12%;
-    width: 24%;
-    height: 1.9px;
-    background-color: #e1e1e1;
-    
-}
-
 .skills
 {   
     border-top: 4px green;
@@ -192,6 +152,13 @@ ul li{
     background-position:center;
     background-attachment:fixed;
     padding: 70px 70px 0;
+    overflow: hidden;
+    box-sizing: border-box;
+
+}
+
+@media only screen and (max-width: 600px) {
+  
 }
 #someskills{
     
@@ -214,6 +181,7 @@ ul li{
     justify-content:space-between;
     position:relative;
     padding: 0px 30px 20px;
+    text-align: center;
 }
 .skills-list ul
 {
@@ -266,6 +234,7 @@ ul li{
     margin: 50px 0px 0px;
     text-align: center;
     padding: 70px 25px 40px;
+    height: inherit;
 }
 
 .projects-block:hover, .projects-block.active
