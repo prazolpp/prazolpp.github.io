@@ -53,7 +53,10 @@ html,body{
     width: 100%;
     z-index:1;
 }
-
+.note{
+    color: beige;
+    z-index: 99;
+}
 header
 {   
     font-family: 'Alfa Slab One', cursive;
