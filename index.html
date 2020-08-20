@@ -14,19 +14,14 @@
 </head>
     
 <body style="font-family: sans-serif;" oncontextmenu="return false">
-<div class="section1" id="main">    
-    <p>
-        <div class="heading"> Hello, I'm Prajwal.</div>
-        <div class="subheading"> I am a Software Developer. Welcome to my website!</div>
-        <div class="note">If you're using a phone, my apologies about the display as I am still working on making it more mobile friendly. It looks much better on a computer. </div>
-    <p>
-    <div class="video-container">
-    <video autoplay loop muted>
-        <source src="CrossingLines.mp4" type="video/mp4">
-    </video> 
-    
+<div class="section1">    
+    <div class = "textContent">
+        <p>
+            <div class="heading"> Hello, I'm Prajwal.</div>
+            <div class="subheading"> I am a Software Developer. Welcome to my website!</div>
+        <p>
     </div>
-    </div>
+</div>
 <header>
 <div class="container">
     <div class="row">
@@ -59,7 +54,7 @@
         </div>
     </div>
 </section>
-<section class="skills" id="skills">
+<section class="skills">
     <div class="container">
         <div class="row">
             <div class="col-sm-12 text-center" id="someskills">
@@ -156,7 +151,33 @@
   </div>
 </div>
 </section>
-<section class="projects" id="intro">
+
+<section class="work" id="work">
+    <div class="container"> 
+          <div class="row">
+              <div class="col-sm-12 text-center">
+                  <h2>RECENT WORK EXPERIENCE</h2>
+                  <div class="sub-heading" id = "subhead4">
+                      <p>I recently had an amazing internship experience at TIBCO as a Frontend developer intern. At the moment, I am contributing most of my time to college and personal projects.
+                      </p>
+                  </div>
+              </div>
+          </div> 
+        
+        <div class="row">
+              <div class="col-sm-12 text-center" id="job">
+                  <h3 class="si"> Front End Developer Intern</h3>
+                      <div class="subhead5">
+                          <h4>TIBCO Software Inc.</h4>
+                              <p>Contributed to development of TIBCO's flogo-web application using TypeScript, Angular, HTML, CSS and Javascript <br>
+                                   Leveraged Node JS and AsyncAPI to create a json generator application for Project Flogo <br>
+                                   Developed the company's internal website using HTML, CSS, JavaScript <br></p>
+                      </div>
+            </div>
+      </div>
+  </div>
+</section>
+<section class="projects">
         <div class="container"> 
             <div class="row">
                 <div class="col-sm-12 text-center">
@@ -168,8 +189,8 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-sm-4">
+            <div class="row project-tabs">
+                <div class="col-sm-4 projectColumn">
                     <a style=" text-decoration: none;" href="https://prazolpp.keybase.pub" target="_blank">
                     <div class="projects-block">
                         <span class="java-icon"><i class="fab fa-js"></i></span>
@@ -185,7 +206,7 @@
                     </a>
                  </div>
           
-                <div class="col-sm-4">
+                <div class="col-sm-4 projectColumn">
                     <a style="text-decoration: none;" href="https://github.com/mikim42/SJSU_CS151/tree/master/POS/src/POS" target="_blank">
                         <div class="projects-block">
                             <span class="java-icon"><i class="fab fa-java"></i></span>
@@ -199,8 +220,8 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-sm-4">
-                    <a style="text-decoration:none;" href="https://github.com/prazolpp/School-Projects/tree/master/Drawing%20Board" target="_blank">
+                <div class="col-sm-4 projectColumn">
+                    <a style="text-decoration:none;" href="https://github.com/prazolpp/Spring-Boot-App" target="_blank">
                     <div class="projects-block">
                         <span class="java-icon"><i class="fab fa-java"></i></span>
                         <h3>Swiping Sammies Dating App</h3>
@@ -219,34 +240,8 @@
             </div>
         </div>
  </section>
-
-<section class="work" id="work">
-      <div class="container"> 
-            <div class="row">
-                <div class="col-sm-12 text-center">
-                    <h2>RECENT WORK EXPERIENCE</h2>
-                    <div class="sub-heading" id = "subhead4">
-                        <p>I recently had an amazing internship experience at TIBCO as a Frontend developer intern. At the moment, I am contributing most of my time to college and personal projects.
-                        </p>
-                    </div>
-                </div>
-            </div> 
-          
-          <div class="row">
-                <div class="col-sm-12 text-center" id="job">
-                    <h3 class="si"> Front End Developer Intern</h3>
-                        <div class="subhead5">
-                            <h4>TIBCO Software Inc.</h4>
-                                <p>Contributed to development of TIBCO's flogo-web application using TypeScript, Angular, HTML, CSS and Javascript <br>
-                                     Leveraged Node JS and AsyncAPI to create a json generator application for Project Flogo <br>
-                                     Developed the company's internal website using HTML, CSS, JavaScript <br></p>
-                        </div>
-              </div>
-        </div>
-    </div>
-</section>
     
-<section class="education" id="education">
+<section class="education">
     <div class="container">
         <div class="row">
             <div class="col-sm-12 text-center">
@@ -261,9 +256,8 @@
     </div>
     <div class="container">
         <div class="row">
-            <div class="edufield" id="edfield1">
-                <div class="col-sm-6 sjsu" id="sjsuimg">
-                    <img src="images/sjsu.jpg" style="height:200px; width: 350px;" alt="San Jose State University">
+                <div class="col-sm-6 imgContain">
+                    <img class="schoolImg" src="images/sjsu.jpg" alt="San Jose State University">
                 </div>
                 <div class="col-sm-6" >
                     <div class="desc">
@@ -275,11 +269,9 @@
                             </p>
                  
                     </div>
-                </div>
         </div>
     </div>
     <div class="row">
-        <div class="edufield" id="edfield2">
             <div class="col-sm-6">
                 <div class="desc">
                     <h3 class= "colhead">COLLEGE OF SAN MATEO </h3>
@@ -290,10 +282,9 @@
                     </p>
                 </div>
             </div>
-            <div class="col-sm-6 csm" id="csmimg">
-                <img src="images/csm.jpg" style="height:200px; width: 350px;" alt="College of San Mateo">
+            <div class="col-sm-6 imgContain" >
+                <img class="schoolImg" src="images/csm.jpg" alt="College of San Mateo">
             </div>
-        </div>
     </div>
 </div>
 </section>
@@ -315,6 +306,7 @@
                         <h2>Prajwal Pyakurel</h2>
                             <h4>Software Developer</h4>
                             <p>Email: prazol.pp@gmail.com</p>
+                                <div class="allIcons">
                                    <a href="http://www.linkedin.com/in/prajwalpyakurel" target="_blank">
                                         <i class="fab fa-linkedin"></i>
                                    </a>
@@ -324,6 +316,7 @@
                               
                                     <a href="http://www.instagram.com/prajwalpyakurel/" target="_blank"><i class="fab fa-instagram"></i>
                                    </a>
+                                </div>
                                 <p><br><br><br><br><br>
                                     <i class="fas fa-copyright">2019 Prajwal Pyakurel</i>      
                     </div>
