@@ -1,4 +1,3 @@
-// Copyright 2019 Prajwal Pyakurel
 $(document).ready(function(){
     
     "use strict";
@@ -47,10 +46,5 @@ $(document).ready(function(){
     
      $(".nav-close").click(function(){
         $(".full-nav").removeClass("open");
-        
-    
     });
-    
-    
 });
-//Copyright 2019 Prajwal Pyakurel
