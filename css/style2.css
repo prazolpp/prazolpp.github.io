@@ -40,16 +40,6 @@ body {
   font-weight: 20;
 }
 
-.section1 .subtext {
-  text-align: center;
-  font-size: 2rem;
-  padding: 10px;
-  margin: 15px;
-  z-index: 2;
-  color: beige;
-  font-weight: 20;
-}
-
 header {
   font-family: "Alfa Slab One", cursive;
   position: sticky;
