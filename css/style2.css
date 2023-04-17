@@ -40,6 +40,13 @@ body {
   font-weight: 20;
 }
 
+.section1 .subheading br{
+  text-align: center;
+  font-size: 1rem;
+  color: beige;
+  font-weight: 10;
+}
+
 header {
   font-family: "Alfa Slab One", cursive;
   position: sticky;
